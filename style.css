@@ -2,28 +2,48 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
 
 }
 
+.guineapig.gif {
+    width: 20px;
+    height: auto;
+    display: block;
+    margin: 0 auto 5px auto;
+
+}
+
+
 .quiz-container {
     background: #fff7eb;
-    padding: 30px;
+    padding: 25px;
     border-radius: 20px;
-    width: 380px;
+    width: 100%;
+    max-width: 400px;
     box-shadow: 0 0 15px rgba(255,160,90,0.5);
     text-align: center;
-    border: 3px solid #ff9d4d
-
+    border: 3px solid #ff9d4d;
+    box-sizing: border-box;
 }
 
 h1 {
     color:#e06363;
+    margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 1.2;
+    position: relative;
+    z-index: 10;
 
 }
 
@@ -33,16 +53,16 @@ h1 {
  button {
     display: block;
     width: 100%;
-    margin: 10px 0;
-    padding: 12px;
+    margin: 8px 0;
+    padding: 15px 10px;
+    font-size: 1rem;
     border: 2px solid #ffb469;
     border-radius: 10px;
     background: #ffe3c2;
     cursor: pointer;
-    transition: 0.2s;
-    font-size: 16px;
-
+    word-wrap: break-word;
 }
+
 
 
 button:hover {
