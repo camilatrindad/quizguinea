@@ -53,20 +53,25 @@ h1 {
  button {
     display: block;
     width: 100%;
-    margin: 8px 0;
-    padding: 15px 10px;
+    margin: 10px 0;
+    padding: 12px;
     font-size: 1rem;
     border: 2px solid #ffb469;
     border-radius: 10px;
     background: #ffe3c2;
     cursor: pointer;
     word-wrap: break-word;
+    -webkit-tap-highlite-color: transparent;
+    outline:none
+    
+   
 }
 
 
 
 button:hover {
     background: #ffd3a1;
+    
 
 }
 
